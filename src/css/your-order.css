@@ -1,0 +1,186 @@
+.section-your-order {
+    background-color: #1C2225;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bagckround-image {
+    height: 550px;
+    max-width: 375px;
+    background-color: #1C2225;
+    background-image: url("../img/your-order/backdround-woman.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+
+   .bg-img {
+    display: none;
+    height: 323px;
+    width: 484px;
+    background-image: url("../img/your-order/kol.png");
+    bottom: 100px;
+    right: 100px;
+} 
+
+.your-order {
+    max-width: 335px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.your-order-text {
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+}
+
+.span {
+    color: var(--white, #ECD979);
+}
+
+.label-and-input-div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 375px;
+}
+
+.input {
+    background-color: transparent;
+    outline: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    padding: 14px 16px;
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    transition: border 250ms linear;
+}
+
+.textarea {
+    background-color: transparent;
+    outline: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    padding: 14px 16px;
+    height: 196px;
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    resize: none;
+    transition: border 250ms linear;
+}
+
+.submit-button {
+    background-color: transparent;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: var(--white, #FCF9F9);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    transition: border 250ms linear;
+}
+
+.textarea:focus,
+.textarea:hover {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+.input:focus,
+.input:hover {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    border: 1px solid var(--yellow, #ECD979);
+}
+
+.your-order-img-div {
+    display: none;
+}
+
+.input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
+
+.textarea::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
+
+
+@media screen and (min-width: 768px) {
+    .section-your-order {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .label-and-input-div {
+        max-width: 508px;
+    }
+    
+    .your-order {
+        max-width: 542px;
+    }
+
+    .your-order-text {
+        font-size: 44px;
+        line-height: 1.32;
+        letter-spacing: -0.03em;
+    }
+
+    .submit-button {
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+
+    .bagckround-image {
+        height: 776px;
+        max-width: 768px;
+        background-image: url("../img/your-order/tablet-backdround-woman.jpg");
+    }
+
+    .your-order-img-div {
+        display: block;
+        width: 638px;
+        height: 521px;
+        border-radius: 4px;
+        background-color: #1C2225;
+        margin-left: 66px;
+        margin-bottom: 80px;
+    }
+
+    /* .bg-img {
+        display: block;
+    } */
+}
