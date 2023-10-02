@@ -36,10 +36,6 @@
   object-fit: contain;
   padding: 0;
 }
-
-.container {
-  max-width: 100% !important;
-}
 .about-us {
   background-color: #1c2225;
   width: 100%;
