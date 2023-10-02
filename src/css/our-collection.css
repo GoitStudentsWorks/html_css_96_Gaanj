@@ -6,7 +6,13 @@
     background-image: url("../img/OurCollection/elements-mobile.png"); 
     background-repeat: no-repeat;
     background-position: left;
-    background-position-y: 217px; 
+    background-position-y: 237px; 
+}
+
+@media screen and (min-width:375px) {
+    .our-collection-box {
+        background-position-y: 257px; 
+    }
 }
 
 @media screen and (min-width:768px) {
