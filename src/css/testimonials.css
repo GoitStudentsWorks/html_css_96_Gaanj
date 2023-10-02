@@ -68,7 +68,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: normal;
 text-align: center; 
-width: 291px;
+
 }
 
 
@@ -99,10 +99,13 @@ width: 291px;
 .two {
   display: list-item;
 }
-
    .testimonials-p{
     font-size: 16px;
+<<<<<<< Updated upstream
     width: 300px;
+=======
+   
+>>>>>>> Stashed changes
    }
    }
 
@@ -122,6 +125,10 @@ width: 291px;
   display: list-item;
 }
 .testimonials-p{
+<<<<<<< Updated upstream
   width: 307px;
+=======
+ 
+>>>>>>> Stashed changes
  }
 }
