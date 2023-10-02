@@ -18,6 +18,15 @@
     margin-left: auto;
 } 
 
+
+   .bg-img {
+    display: none;
+    height: 323px;
+    width: 484px;
+    background-image: url("../img/your-order/kol.png");
+    bottom: 100px;
+    right: 100px;
+
 .your-order {
     max-width: 335px;
     padding-top: 80px;
@@ -53,7 +62,11 @@
     padding: 14px 16px;
     color: var(--white, #FCF9F9);
     font-family: Manrope;
+
     font-size: 14px;
+
+    font-size: 16px;
+
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -70,7 +83,11 @@
     height: 196px;
     color: var(--white, #FCF9F9);
     font-family: Manrope;
+
     font-size: 14px;
+
+    font-size: 16px;
+
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -178,6 +195,7 @@
         margin-bottom: 80px;
     }
 
+
     .submit-button {
         font-size: 16px;
     }
@@ -210,4 +228,9 @@
         max-width: 1280px;
         background-image: url("../img/your-order/desktop-backdround-woman.jpg");
     }
+
+    /* .bg-img {
+        display: block;
+    } */
+
 }
