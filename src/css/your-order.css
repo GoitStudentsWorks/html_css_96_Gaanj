@@ -23,10 +23,10 @@
     display: none;
     height: 323px;
     width: 484px;
-    background-image: url("../img/your-order/kol.png");
+    background-image: url("./img/your-order/kol.png");
     bottom: 100px;
     right: 100px;
-
+   }
 .your-order {
     max-width: 335px;
     padding-top: 80px;
