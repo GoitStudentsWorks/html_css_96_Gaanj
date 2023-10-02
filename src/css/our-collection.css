@@ -6,13 +6,13 @@
     background-image: url("../img/OurCollection/elements-mobile.png"); 
     background-repeat: no-repeat;
     background-position: left;
-    background-position-y: 247px; 
+    background-position-y: 217px; 
 }
 
 @media screen and (min-width:768px) {
     .our-collection-box {
         background-image: url("../img/OurCollection/elements-tablet.png");
-        background-position-y: 186px; 
+        background-position-y: 176px; 
     }
 }
 
