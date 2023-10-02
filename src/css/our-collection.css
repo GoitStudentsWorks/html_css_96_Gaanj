@@ -9,6 +9,12 @@
     background-position-y: 217px; 
 }
 
+@media screen and (min-width:375px) {
+    .our-collection-box {
+        background-position-y: 257px; 
+    }
+}
+
 @media screen and (min-width:768px) {
     .our-collection-box {
         background-image: url("../img/OurCollection/elements-tablet.png");
