@@ -26,7 +26,6 @@
     background-image: url("../img/your-order/kol.png");
     bottom: 100px;
     right: 100px;
-} 
 
 .your-order {
     max-width: 335px;
@@ -63,7 +62,11 @@
     padding: 14px 16px;
     color: var(--white, #FCF9F9);
     font-family: Manrope;
+
+    font-size: 14px;
+
     font-size: 16px;
+
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -80,7 +83,11 @@
     height: 196px;
     color: var(--white, #FCF9F9);
     font-family: Manrope;
+
+    font-size: 14px;
+
     font-size: 16px;
+
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -108,6 +115,10 @@
     letter-spacing: -0.04em;
     text-transform: uppercase;
     transition: border 250ms linear;
+}
+
+.submit-button-icon {
+    fill: var(--yellow, #ECD979);
 }
 
 .textarea:focus,
@@ -164,6 +175,10 @@
         margin-bottom: 100px;
     }
 
+    .input {
+    font-size: 16px;
+    }
+
     .bagckround-image {
         height: 776px;
         max-width: 768px;
@@ -180,7 +195,42 @@
         margin-bottom: 80px;
     }
 
+
+    .submit-button {
+        font-size: 16px;
+    }
+
+    .bg-img {
+        display: block;
+        background-color: #1C2225;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-image: url("../img/your-order/kol.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-y: bottom;
+    } 
+}
+
+
+@media screen and (min-width: 1280px) {
+    .section-your-order {
+        max-width: 1280px;
+        padding-left: 64px;
+        padding-right: 100px;
+    }
+
+    .your-order-img-div {
+        margin-left: 0;
+    }
+
+    .bagckround-image {
+        max-width: 1280px;
+        background-image: url("../img/your-order/desktop-backdround-woman.jpg");
+    }
+
     /* .bg-img {
         display: block;
     } */
+
 }
