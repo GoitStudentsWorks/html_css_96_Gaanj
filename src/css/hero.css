@@ -26,7 +26,6 @@
     letter-spacing: -0.03em;
     padding-bottom: 20px;
   }
-
   .part-hero-title {
     color: #ECD979;
 }
@@ -225,4 +224,13 @@
 
 .star-block {
   margin-top: 14px;
+}
+.titlell {
+  color: #ECD979;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
