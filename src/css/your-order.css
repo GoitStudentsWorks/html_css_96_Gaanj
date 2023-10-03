@@ -9,7 +9,7 @@
     height: 550px;
     max-width: 375px;
     background-color: #1C2225;
-    background-image: url("../img/your-order/backdround-woman.jpg");
+    background-image: url("./img/your-order/backdround-woman.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     margin-right: auto;
@@ -167,7 +167,7 @@
     .bagckround-image {
         height: 776px;
         max-width: 768px;
-        background-image: url("../img/your-order/tablet-backdround-woman.jpg");
+        background-image: url("./img/your-order/tablet-backdround-woman.jpg");
     }
 
     .your-order-img-div {
@@ -189,7 +189,7 @@
         background-color: #1C2225;
         padding-top: 20px;
         padding-bottom: 20px;
-        background-image: url("../img/your-order/kol.png");
+        background-image: url("./img/your-order/kol.png");
         background-repeat: no-repeat;
         background-position: left;
         background-position-y: bottom;
@@ -218,8 +218,9 @@
 
     .bagckround-image {
         max-width: 1280px;
-        background-image: url("../img/your-order/desktop-backdround-woman.jpg");
+        background-image: url("./img/your-order/desktop-backdround-woman.jpg");
     }
+
 
     .bg-img {
         background-position-y: 115px;
@@ -230,4 +231,5 @@
     .submit-button {
         margin-bottom: 0;
     }
+}
 }
