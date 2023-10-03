@@ -38,12 +38,24 @@
   }
 }
 
-static
+
+@media screen and (min-width: 768px){
+  .static{
+  width: 549px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .fixed-objects{
+  width: 219px;
+  }
+}
+
 
 .section-hero {
   display: flex;
   flex-wrap: wrap;
-  max-width: 375px;
+  /* max-width: 375px; */
   padding-top: 60px;
   padding-bottom: 80px;
   padding-left: 20px;
@@ -100,5 +112,22 @@ static
 @media screen and (min-width: 768px) {
   .fixed-objects{
     display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    position: relative;
+    width: 219px;
   }
+}
+
+.star-block{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.hero-image-shirt{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
