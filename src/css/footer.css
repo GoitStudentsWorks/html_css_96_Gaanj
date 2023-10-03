@@ -6,7 +6,7 @@
 .footer-ul {
   display: inline-flex;
   align-items: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   column-gap: 40px;
   row-gap: 25px;
@@ -16,6 +16,7 @@
   line-height: 18px;
   text-transform: uppercase;
   margin-bottom: 40px;
+  max-height: 61px;
 }
 .footer-li {
   color: var(--white);
@@ -36,7 +37,7 @@
   position: relative;
   max-width: 451.393px;
   height: 200px;
-  background-image: url('../img/footer/footer-ornament.png');
+  background-image: url('./img/footer/footer-ornament.png');
   background-repeat: no-repeat;
   background-position: bottom center;
   align-items: center;
@@ -54,6 +55,8 @@
     width: 521px;
   }
   .footer-ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
   .section-footer {
     flex-direction: row;
