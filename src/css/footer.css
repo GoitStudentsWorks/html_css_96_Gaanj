@@ -4,6 +4,7 @@
 .footer-nav-div {
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
 .footer-ul {
   display: flex;
@@ -44,6 +45,8 @@
   background-position: bottom;
   width: 100%;
   height: 200px;
+  position: relative;
+  top: 407px;
 }
 
 /* media */
@@ -73,11 +76,8 @@
     font-size: 54px;
     line-height: 64px;
   }
-  .footer-ornament{
-    transform: rotate(90deg);
-    position: relative;
-    right: auto;
-    background-repeat: no-repeat;
+  .footer-ornament {
+    background-image: url(../img/footer/footer-ornament-tab.png);
   }
 }
 @media screen and (min-width: 1280px) {
