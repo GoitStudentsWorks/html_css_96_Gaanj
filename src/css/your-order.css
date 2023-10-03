@@ -1,7 +1,5 @@
 .section-your-order {
     background-color: #1C2225;
-    padding-right: 20px;
-    padding-left: 20px;
     max-width: 375px;
     margin-right: auto;
     margin-left: auto;
@@ -17,16 +15,6 @@
     margin-right: auto;
     margin-left: auto;
 } 
-
-
-   .bg-img {
-    display: none;
-    height: 323px;
-    width: 484px;
-    background-image: url("./img/your-order/kol.png");
-    bottom: 100px;
-    right: 100px;
-   }
 
 .your-order {
     max-width: 335px;
@@ -133,6 +121,10 @@
     display: none;
 }
 
+.your-order-img-div-desktop {
+    display: none;
+}
+
 .input::placeholder {
     color: rgba(252, 249, 249, 0.50);
 }
@@ -145,8 +137,8 @@
 @media screen and (min-width: 768px) {
     .section-your-order {
         max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .label-and-input-div {
@@ -175,7 +167,7 @@
     .bagckround-image {
         height: 776px;
         max-width: 768px;
-        background-image: url("./img/your-order/tablet-backdround-woman.jpg");
+        background-image: url("../img/your-order/tablet-backdround-woman.jpg");
     }
 
     .your-order-img-div {
@@ -197,7 +189,7 @@
         background-color: #1C2225;
         padding-top: 20px;
         padding-bottom: 20px;
-        background-image: url("./img/your-order/kol.png");
+        background-image: url("../img/your-order/kol.png");
         background-repeat: no-repeat;
         background-position: left;
         background-position-y: bottom;
@@ -208,25 +200,34 @@
 @media screen and (min-width: 1280px) {
     .section-your-order {
         max-width: 1280px;
-        padding-left: 64px;
-        padding-right: 100px;
+        margin-top: 150px;
+
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;
+        
     }
 
     .your-order-img-div {
-        margin-left: 0;
+        margin: 0;
+    }
+
+    .your-order {
+        padding-top: 0;
     }
 
     .bagckround-image {
         max-width: 1280px;
-        background-image: url("./img/your-order/desktop-backdround-woman.jpg");
+        background-image: url("../img/your-order/desktop-backdround-woman.jpg");
     }
 
+    .bg-img {
+        background-position-y: 115px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .submit-button {
+        margin-bottom: 0;
+    }
 }
-
-
-    /* .bg-img {
-        display: block;
-    } */
-
-}
-
