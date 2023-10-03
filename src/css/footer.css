@@ -11,8 +11,8 @@
   margin-bottom: 40px;
   flex-wrap: wrap;
   column-gap: 40px;
-width: 280px;
   row-gap: 25px;
+  width: 300px;
 }
 .footer-li {
   flex-basis: calc(70% - 155px / 2);
@@ -46,16 +46,13 @@ width: 280px;
   flex-basis: calc(69% - 155px / 2);
   }
 }
-@media screen  and (min-width: 375px){
-  .footer-ul{
-    max-width: 375px;
-  }  
-}
+
 @media screen and (min-width: 768px) {
   .footer-ul {
     flex-direction: row;
     flex-wrap: nowrap;
     column-gap: 25px;
+    width: auto;
   }
   .footer-li {
     flex-basis: auto;
