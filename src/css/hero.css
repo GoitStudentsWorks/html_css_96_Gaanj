@@ -417,13 +417,13 @@
 }
 .hero-image-shirt {
   position: absolute;
-  bottom: -98px;
+  bottom: 0px;
   right: 0;
 }
 @media screen and (min-width: 1280px){
   .hero-image-shirt {
     display: block;
-    bottom: -80px;
+    bottom: 0px;
   }
 }
 @media screen and (min-width: 1440px){
