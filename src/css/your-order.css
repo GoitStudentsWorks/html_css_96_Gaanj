@@ -1,1 +1,264 @@
 
+.section-your-order {
+    background-color: #1C2225;
+    max-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bagckround-image {
+    height: 550px;
+    max-width: 375px;
+    background-color: #1C2225;
+    background-image: url("../img/your-order/backdroung-woman.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+.your-order {
+    max-width: 335px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.your-order-text {
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+}
+
+.span {
+    color: var(--yellow, #ECD979);
+}
+
+.label-and-input-div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 375px;
+}
+
+.input {
+    background-color: transparent;
+    outline: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    padding: 14px 16px;
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    transition: border 250ms linear;
+}
+
+.textarea {
+    background-color: transparent;
+    outline: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    padding: 14px 16px;
+    height: 196px;
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    resize: none;
+    transition: border 250ms linear;
+}
+
+.submit-button {
+    background-color: transparent;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: var(--white, #FCF9F9);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    transition: border 250ms linear;
+}
+
+.submit-button-icon {
+    fill: var(--yellow, #ECD979);
+}
+
+.textarea:focus,
+.textarea:hover {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+.input:focus,
+.input:hover {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    border: 1px solid var(--yellow, #ECD979);
+}
+
+.your-order-img-div {
+    display: none;
+}
+
+.your-order-img-div-desktop {
+    display: none;
+}
+
+.input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
+
+.textarea::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
+
+
+@media screen and (min-width: 768px) {
+    .section-your-order {
+        max-width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .label-and-input-div {
+        max-width: 508px;
+    }
+    
+    .your-order {
+        max-width: 542px;
+    }
+
+    .your-order-text {
+        font-size: 44px;
+        line-height: 1.32;
+        letter-spacing: -0.03em;
+    }
+
+    .submit-button {
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+
+    .input {
+    font-size: 16px;
+    }
+
+    .bagckround-image {
+        height: 776px;
+        max-width: 768px;
+        background-image: url("../img/your-order/tablet-background-woman.jpg");
+    }
+
+    .your-order-img-div {
+        display: block;
+        width: 638px;
+        height: 521px;
+        border-radius: 4px;
+        background-color: #1C2225;
+        /* margin-left: 66px;
+        margin-bottom: 80px; */
+    }
+
+    .submit-button {
+        font-size: 16px;
+    }
+
+    .bg-img {
+        display: block;
+        background-color: #1C2225;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-image: url("../img/your-order/kol.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-y: bottom;
+    } 
+}
+
+
+@media screen and (min-width: 1280px) {
+    .section-your-order {
+        max-width: 1120px;
+        margin-top: 150px;
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;
+        
+    }
+
+    .your-order-img-div {
+        margin: 0;
+        max-width: 524px; 
+    }
+
+    .your-order {
+        padding-top: 0;
+    }
+    
+    .bagckround-image {
+        max-width: 1280px;
+        background-image: url("../img/your-order/desktop-background-woman.jpg");
+    }
+
+    .bg-img {
+        background-position-y: 1015px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .submit-button {
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+       screen and (min-resolution: 2dppx) and (min-width: 768px),
+       screen and (min-device-pixel-ratio: 2) and (min-width: 768px)
+        {
+    .bagckround-image {
+        background-image: url("../img/your-order/tablet-background-woman@2x.jpg");
+    }
+       }
+
+       @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+       screen and (min-resolution: 2dppx) and (min-width: 1280px),
+       screen and (min-device-pixel-ratio: 2) and (min-width: 1280px)
+        {
+    .bagckround-image {
+        background-image: url("../img/your-order/desktop-background-woman@2x.jpg");
+    }
+       }
+
+
+       @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+       screen and (min-resolution: 2dppx) and (max-width: 767px),
+       screen and (min-device-pixel-ratio: 2) and (max-width: 767px)
+        {
+    .bagckround-image {
+        background-image: url("../img/your-order/backdroung-woman@2x.jpg");
+    }
+       }
