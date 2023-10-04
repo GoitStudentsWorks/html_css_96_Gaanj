@@ -402,12 +402,10 @@
 }
 @media screen and (min-width: 1280px){
   .star-block {
-    top: 14px;
   }
 }
 @media screen and (min-width: 1440px){
   .star-block {
-    top: 46px;
   }
 }
 .hero-image-shirt {
