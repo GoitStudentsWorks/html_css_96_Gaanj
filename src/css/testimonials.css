@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 320px) {
   .testimonials-p {
-    width: 291px;
+    width: auto;
   }
 }
 
