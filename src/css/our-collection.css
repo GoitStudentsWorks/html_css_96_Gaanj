@@ -22,6 +22,12 @@
         background-position-y: 160px; 
     }
 }
+@media screen and (min-width:1280px){
+    .our-collection-box{
+        padding-bottom: 0;
+        margin-bottom: 150px;
+    }
+}
 
 .our-collection-title {
     font-size: 32px;
@@ -45,7 +51,7 @@
     .our-collection-paragraph {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 40px 20px;
     }
 }
 

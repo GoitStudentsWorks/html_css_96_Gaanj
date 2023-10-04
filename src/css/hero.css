@@ -28,13 +28,13 @@
 @media screen and (min-width: 1280px) {
   .hero-container {
     width: 1080px;
-    /* padding: 0 100px; */
+    margin-top: 100px;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero-container {
     width: 1240px;
-    padding-top: 18px;
+    margin-top: 100px;
   }
 }
 .section-hero {
@@ -299,7 +299,7 @@
     font-weight: 400;
     line-height: 74px; /* 115.625% */
     letter-spacing: -1.92px;
-    width: 632px;
+    width: 630px;
   }
   .titlell {
     color: #ECD979;
@@ -412,7 +412,7 @@
 }
 @media screen and (min-width: 1440px){
   .star-block {
-    top: 46px;
+    top: 60px;
   }
 }
 .hero-image-shirt {
@@ -448,6 +448,6 @@
 }
 @media screen and (min-width: 1440px) {
   .container-text {
-    margin-top: 60px;
+    margin-top: 66px;
   }
 }
