@@ -213,11 +213,7 @@
     width: 219px;
   }
 }
-@media screen and (min-width: 768px) {
-  .static {
-    /* width: 549px; */
-  }
-}
+
 .star-block {
   display: flex;
   flex-direction: column;
