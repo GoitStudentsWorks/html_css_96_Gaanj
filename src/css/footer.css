@@ -82,6 +82,8 @@
     background-position: right;
     background-repeat: no-repeat;
     height: 335px;
+    width: 176px;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -99,5 +101,6 @@
     background-position: right;
     background-repeat: no-repeat;
     height: 362px;
+    width: 338px;
   }
 }
