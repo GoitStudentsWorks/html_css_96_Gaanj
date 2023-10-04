@@ -1,24 +1,31 @@
 .section-footer {
   padding-top: 40px;
+}
+.footer-nav-div {
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px;
 }
 .footer-ul {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
   flex-wrap: wrap;
   column-gap: 40px;
   row-gap: 25px;
+  width: 300px;
+}
+.footer-li {
+  flex-basis: calc(70% - 155px / 2);
+}
+.footer-a {
+  cursor: pointer;
+  color: var(--white);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
   text-transform: uppercase;
-  margin-bottom: 40px;
-}
-.footer-li {
-  color: var(--white);
 }
 .footer-p {
   color: var(--white);
@@ -32,37 +39,62 @@
 .footer-p-span {
   color: var(--yellow);
 }
+
 .footer-ornament {
-  position: relative;
-  max-width: 451.393px;
+  background-image: url(../img/footer/footer-ornament.png);
+  width: 100%;
   height: 200px;
-  background-image: url('../img/footer/footer-ornament.png');
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  align-items: center;
+  background-position: center;
 }
-@media screen and (min-whidth: 320px) {
+
+/* media */
+
+@media screen and (min-width: 320px) {
   .footer-p {
-    width: 335px;
+    max-width: 335px;
+  }
+  .footer-li {
+    flex-basis: calc(69% - 155px / 2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-nav-div{
+    position: absolute;
+  }
+  .footer-ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 25px;
+    width: auto;
     margin-bottom: 80px;
   }
-  .footer-ul {
+  .footer-li {
+    flex-basis: auto;
+  }
+  .footer-p {
+    max-width: 521px;
+    font-size: 54px;
+    line-height: 64px;
+  }
+  .footer-ornament {
+    background-image: url(../img/footer/footer-ornament-tab.png);
+    position: relative;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 370px;
   }
 }
-@media screen and (min-whidth: 768px) {
+@media screen and (min-width: 1280px) {
   .footer-p {
-    width: 521px;
+    max-width: 754px;
+    line-height: 74px;
+    font-size: 64px;
   }
-  .footer-ul {
-  }
-  .section-footer {
-    flex-direction: row;
-  }
-}
-@media screen and (min-whidth: 1280px) {
-  .footer-p {
-    йwidth: 754px;
-  }
-  .footer-ul {
+  .footer-ornament {
+    background-image: url(../img/footer/footer-ornament-tab.png);
+    position: relative;
+    background-position: right;
+    background-repeat: no-repeat;
   }
 }
