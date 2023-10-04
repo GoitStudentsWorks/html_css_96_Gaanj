@@ -50,7 +50,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 291px;
 }
 .two {
   display: none;
@@ -60,17 +59,17 @@
 }
 
 @media screen and (min-width: 320px) {
+  .testimonials-p {
+    width: 291px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .one{
-  }
   .two {
     display: flex;
   }
   .testimonials-p {
     width: 300px;
-    
     height: 176px;
     font-size: 16px;
   }
@@ -83,5 +82,15 @@
   .testimonials-p {
     width: 307px;
     height: 175px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .testimonials-p {
+    width: 359px;
+    height: 154px; 
+  }
+  .testimonials-list{
+    column-gap: 26px;
   }
 }
