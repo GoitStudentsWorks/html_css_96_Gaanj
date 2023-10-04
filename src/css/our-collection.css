@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: left;
     background-position-y: 237px; 
+    margin-bottom: 40px;
 }
 
 @media screen and (min-width:375px) {
@@ -63,8 +64,8 @@
 
 @media screen and (min-width:768px) {
     .our-collection-photo {
-        width: 342px;
-        margin-bottom: 40px;       
+        width: 342px;     
+        margin-bottom: 0;
     }
 }
 
