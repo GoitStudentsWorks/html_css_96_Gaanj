@@ -202,7 +202,7 @@ header{
     pointer-events: none;
 }
 
-.is-open {
+  .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -352,5 +352,3 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
       background-image: url('../img/header-images/elements-tab-@2x.png');
     }
   }
-
-
