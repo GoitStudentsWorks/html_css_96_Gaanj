@@ -228,3 +228,20 @@
   bottom: -96px;
   right: 0;
 }
+
+@media screen and (min-width: 1280px) {
+  .static {
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+  .container-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+}
+
