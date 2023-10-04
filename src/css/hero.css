@@ -400,26 +400,20 @@
   top: -22px;
   right: 0;
 }
-@media screen and (min-width: 1280px){
-  .star-block {
-    top: 14px;
-  }
-}
-@media screen and (min-width: 1440px){
-  .star-block {
-    top: 46px;
-  }
-}
 .hero-image-shirt {
-  position: absolute;
+  background: url(../img/hero/shirt.png), lightgray -2.066px -19.213px / 105.126% 113.938% no-repeat;
+  position: relative;
   bottom: -96px;
   right: 0;
+  height: 87px;
+  width: 139px;
+background-color: transparent;
+bottom: 0;
 }
 @media screen and (min-width: 1280px){
   .hero-image-shirt {
     display: block;
     position: absolute;
-    bottom: -81px;
     right: 0;
   }
 }
