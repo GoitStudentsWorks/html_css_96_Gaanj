@@ -402,8 +402,7 @@
 }
 .hero-image-shirt {
   background: url(../img/hero/shirt.png), lightgray -2.066px -19.213px / 105.126% 113.938% no-repeat;
-  position: relative;
-  bottom: -96px;
+  position: absolute;
   right: 0;
   height: 87px;
   width: 139px;
