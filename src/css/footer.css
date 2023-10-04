@@ -40,7 +40,7 @@
 }
 
 .footer-ornament {
-  background-image: url(./img/footer/footer-ornament.png);
+  background-image: url(../img/footer/footer-ornament.png);
   width: 100%;
   height: 200px;
   background-position: center;
@@ -77,7 +77,7 @@
     line-height: 64px;
   }
   .footer-ornament {
-    background-image: url(./img/footer/footer-ornament-tab.png);
+    background-image: url(../img/footer/footer-ornament-tab.png);
     position: relative;
     background-position: right;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@
   padding-bottom: 0x;
   }
   .footer-ornament {
-    background-image: url(./img/footer/footer-ornament-pc-1280.png);
+    background-image: url(../img/footer/footer-ornament-pc-1280.png);
     position: relative;
     background-position: right;
     background-repeat: no-repeat;
