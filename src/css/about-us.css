@@ -63,6 +63,7 @@
 }
 
 .main-image {
+  border-radius: 4px;
   height: 499px;
   object-fit: cover;
   z-index: 1;
@@ -141,7 +142,6 @@
     align-items: center;
     flex-direction: row;
     gap: 50px;
-    max-width: 1080px;
     margin-bottom: 80px; /* media */
   }
 
