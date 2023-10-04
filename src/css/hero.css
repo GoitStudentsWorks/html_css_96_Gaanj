@@ -402,10 +402,12 @@
 }
 @media screen and (min-width: 1280px){
   .star-block {
+    top: 14px;
   }
 }
 @media screen and (min-width: 1440px){
   .star-block {
+    top: 46px;
   }
 }
 .hero-image-shirt {
@@ -419,10 +421,6 @@
     position: absolute;
     bottom: -81px;
     right: 0;
-  }
-}
-@media screen and (min-width: 1440px){
-  .hero-image-shirt {
   }
 }
 @media screen and (min-width: 1280px) {
