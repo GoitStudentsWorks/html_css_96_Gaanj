@@ -88,11 +88,7 @@ header{
         gap: 25px;
     }
 }
-@media screen and (min-width: 1440px){
-    .nav-list{
 
-    }
-}
 
 .nav-link{
     color: var(--white, #FCF9F9);
@@ -179,10 +175,6 @@ header{
 }
 
 
-@media screen and (min-width: 375px){.logo-nav{}}
-@media screen and (min-width: 768px){.logo-nav{}}
-@media screen and (min-width: 1280px){.logo-nav{}}
-@media screen and (min-width: 1440px){.logo-nav{}}
 
 
 /* MOBILE MENU */
@@ -220,11 +212,6 @@ header{
     margin-right: auto;
 }
 
-@media screen and (min-width: 375px){
-    .mobile-menu-container{   
-
-    }
-}
 
 
 @media screen and (min-width: 768px){
