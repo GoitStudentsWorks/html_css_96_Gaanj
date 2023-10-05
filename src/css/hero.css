@@ -106,7 +106,8 @@
     color: #ecd979;
   }
   .hero-button {
-    background: #1c2225;
+    background-color: transparent;
+    display: flex;
     display: inline-flex;
     padding: 14px 36px;
     margin-left: 70px;
@@ -121,14 +122,14 @@
     font-weight: 600;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+    transition: border 250px linear;
   }
   .hero-button-icon {
-    fill: #ecd979;
+    fill: var(--yellow);
   }
   .hero-button:hover,
   .hero-button:focus {
-    border-radius: 15px;
-    border: 1px solid var(--yellow, #ecd979);
+    border: 1px solid var(--yellow);   
   }
 }
 @media screen and (min-width: 768px) {
@@ -161,6 +162,7 @@
     font-weight: 600;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+    transition: border 250px linear;
   }
   .hero-button-icon {
     fill: #ecd979;
@@ -188,30 +190,13 @@
   .star-block-icon {
     fill: #ecd979;
   }
-  .hero-button {
-    background: #1c2225;
-    display: inline-flex;
-    padding: 14px 39px;
-    margin-left: 141px;
-    margin-bottom: 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.1);
-    color: #fcf9f9;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-  }
   .hero-button-icon {
     fill: #ecd979;
   }
   .hero-button:hover,
   .hero-button:focus {
     border-radius: 15px;
-    border: 1px solid var(--yellow, #ecd979);
+    border: 1px solid var(--yellow);
   }
   .star-block-text {
     color: rgba(252, 249, 249, 0.4);
@@ -316,7 +301,7 @@
   }
 }
 .hero-button {
-  color: var(--white, #fcf9f9);
+  color: var(--white);
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
@@ -334,6 +319,8 @@
   margin-top: 20px;
   margin-bottom: 40px;
   margin-left: 30px;
+  
+  transition: border 250ms linear;
 }
 @media screen and (min-width: 375px) {
   .hero-button {
