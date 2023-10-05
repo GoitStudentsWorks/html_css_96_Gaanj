@@ -1,9 +1,10 @@
 .section-footer {
-  padding-top: 40px;
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
 .footer-nav-div {
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
 }
 .footer-ul {
   display: flex;
@@ -58,7 +59,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer-nav-div{
+  .footer-nav-div {
     position: absolute;
   }
   .footer-ul {
@@ -81,7 +82,7 @@
     position: relative;
     background-position: right;
     background-repeat: no-repeat;
-    height: 335px;
+    height: 375px;
     width: 176px;
     margin-left: auto;
   }
@@ -93,14 +94,15 @@
     font-size: 64px;
   }
   .footer-nav-div {
-  padding-bottom: 0x;
+    padding-bottom: 0;
   }
   .footer-ornament {
     background-image: url(../img/footer/footer-ornament-pc-1280.png);
     position: relative;
     background-position: right;
     background-repeat: no-repeat;
-    height: 362px;
+    height: 402px;
     width: 338px;
+    background-size: 338px 402px;
   }
 }
