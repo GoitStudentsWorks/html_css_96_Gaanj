@@ -334,10 +334,18 @@
   width: 169px;
   margin-top: 20px;
   margin-bottom: 40px;
+  margin-left: 30px;
 }
+@media screen and (min-width: 375px){
+  .hero-button {
+    margin-left: 70px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero-button {
     margin-top: 40px;
+    margin-left: 141px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -407,7 +415,7 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: -40px;
+  top: -39px;
   right: 0;
 }
 @media screen and (min-width: 1280px){
@@ -417,18 +425,18 @@
 }
 @media screen and (min-width: 1440px){
   .star-block {
-    top: 60px;
+    top: 40px;
   }
 }
 .hero-image-shirt {
   position: absolute;
-  bottom: -80px;
+  bottom: -100px;
   right: 0;
 }
 @media screen and (min-width: 1280px){
   .hero-image-shirt {
     display: block;
-    bottom: -98px;
+    bottom: -80px;
   }
 }
 @media screen and (min-width: 1440px){
