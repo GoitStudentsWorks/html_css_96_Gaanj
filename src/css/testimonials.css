@@ -72,6 +72,9 @@
     height: 176px;
     font-size: 16px;
   }
+  .testimonials-part{
+    margin-bottom: 100px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -80,6 +83,9 @@
   }
   .testimonials-p {
     width: auto;
+  }
+  .testimonials-part{
+    margin-bottom: 150px;
   }
 }
 
@@ -91,4 +97,5 @@
   .testimonials-list{
     column-gap: 26px;
   }
+
 }

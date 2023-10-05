@@ -1,13 +1,11 @@
 
 .our-collection-box {
-    padding-top: 20px;
-    padding-bottom: 20px;
     background-color: #1C2225;  
     background-image: url("../img/OurCollection/elements-mobile.png"); 
     background-repeat: no-repeat;
     background-position: left;
-    background-position-y: 237px; 
-    margin-bottom: 40px;
+    background-position-y: 237px;
+    margin-bottom: 80px;
 }
 
 @media screen and (min-width:375px) {
@@ -19,12 +17,14 @@
 @media screen and (min-width:768px) {
     .our-collection-box {
         background-image: url("../img/OurCollection/elements-tablet.png");
-        background-position-y: 160px; 
+        background-position-y: 160px;
+        margin-bottom: 100px;
     }
 }
 @media screen and (min-width:1280px){
     .our-collection-box{
         padding-bottom: 0;
+        margin-bottom: 150px;
         margin-bottom: 150px;
     }
 }
