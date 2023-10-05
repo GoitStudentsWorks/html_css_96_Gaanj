@@ -1,273 +1,204 @@
-
-.section-your-order {
-    background-color: #1C2225;
-    max-width: 375px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 80px;
+.order-section {
+  margin-bottom: 80px;
 }
-
-.bagckround-image {
-    height: 550px;
-    max-width: 375px;
-    background-color: #1C2225;
-    background-image: url("../img/your-order/backdroung-woman.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin-right: auto;
-    margin-left: auto;
-} 
-
-.your-order {
-    max-width: 335px;
-    padding-top: 80px;
-    margin-bottom: 40px;
+.order-background-shirt {
+  background-image: url(../img/your-order/backdroung-woman.jpg);
+  min-width: 320px;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 80px;
 }
-
-.your-order-text {
-    color: var(--white, #FCF9F9);
-    font-family: Manrope;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.375;
-    letter-spacing: -0.03em;
+.order-p {
+  color: var(--white);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
 }
-
-.span {
-    color: var(--yellow, #ECD979);
+.order-p-san {
+  color: var(--yellow);
 }
-
 .label-and-input-div {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    max-width: 375px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 375px;
 }
-
 .input {
-    background-color: transparent;
-    outline: transparent;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    padding: 14px 16px;
-    color: var(--white, #FCF9F9);
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.02em;
-    transition: border 250ms linear;
+  background-color: transparent;
+  outline: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  padding: 14px 16px;
+  color: var(--white);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+  transition: border 250ms linear;
 }
-
-.textarea {
-    background-color: transparent;
-    outline: transparent;
-    border-radius: 8px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    padding: 14px 16px;
-    height: 196px;
-    color: var(--white, #FCF9F9);
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.02em;
-    resize: none;
-    transition: border 250ms linear;
-}
-
-.submit-button {
-    background-color: transparent;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    padding: 14px 36px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    color: var(--white, #FCF9F9);
-    font-size: 14px;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    transition: border 250ms linear;
-}
-
-.submit-button-icon {
-    fill: var(--yellow, #ECD979);
-}
-
-.textarea:focus,
-.textarea:hover {
-    border: 1px solid rgba(252, 249, 249, 0.60);
-}
-
 .input:focus,
 .input:hover {
-    border: 1px solid rgba(252, 249, 249, 0.60);
+  border: 1px solid rgba(252, 249, 249, 0.6);
 }
-
+.input::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+}
+.textarea {
+  background-color: transparent;
+  outline: transparent;
+  border-radius: 8px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  padding: 14px 16px;
+  height: 196px;
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+  resize: none;
+  transition: border 250ms linear;
+}
+.textarea:focus,
+.textarea:hover {
+  border: 1px solid rgba(252, 249, 249, 0.6);
+}
+.textarea::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+}
+.submit-button {
+  background-color: transparent;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  transition: border 250ms linear;
+}
 .submit-button:hover,
 .submit-button:focus {
-    border: 1px solid var(--yellow, #ECD979);
+  border: 1px solid var(--yellow);
+}
+.submit-button-icon {
+  fill: var(--yellow);
+}
+.image-container {
+  display: none;
 }
 
-.your-order-img-div {
-    display: none;
+@media screen and (min-width: 320px) {
+  .order-background-shirt {
+    min-width: 320px;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .order-background-shirt {
+      background-image: url(../img/your-order/backdroung-woman@2x.jpg);
+      background-size: 375px 550px;
+    }
+  }
 }
-
-.your-order-img-div-desktop {
-    display: none;
-}
-
-.input::placeholder {
-    color: rgba(252, 249, 249, 0.50);
-}
-
-.textarea::placeholder {
-    color: rgba(252, 249, 249, 0.50);
-}
-
-
 @media screen and (min-width: 768px) {
-    .section-your-order {
-        max-width: 768px;
-        margin-bottom: 100px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .label-and-input-div {
-        max-width: 508px;
-    }
+  .image-container {
+    display: flex;
+    justify-content: right;
+  }
+  .order-img{
     
-    .your-order {
-        max-width: 542px;
+    position: absolute;
+  }
+  .order-ornament{
+    background-image: url(../img/your-order/kol.png);
+    position: relative;
+    width: 310px;
+    height: 450px;
+    right: 425px;
+    top: 116px;
+    background-position: bottom;
+  }
+  .order-background-shirt {
+    background-image: url(../img/your-order/tablet-background-woman.jpg);
+    background-size: 768px 776px;
+    margin-bottom: 100px;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .order-background-shirt {
+      background-image: url(../img/your-order/tablet-background-woman@2x.jpg);
     }
-
-    .your-order-text {
-        font-size: 44px;
-        line-height: 1.32;
-        letter-spacing: -0.03em;
-    }
-
-    .submit-button {
-        margin-left: 0;
-        margin-bottom: 100px;
-    }
-
-    .input {
-    font-size: 16px;
-    }
-
-    .bagckround-image {
-        height: 776px;
-        max-width: 768px;
-        background-image: url("../img/your-order/tablet-background-woman.jpg");
-    }
-
-    .your-order-img-div {
-        display: flex;
-        width: 638px;
-        height: 521px;
-        border-radius: 4px;
-        background-color: #1C2225;
-    }
-
-    .submit-button {
-        font-size: 16px;
-    }
-
-    .bg-img {
-        display: block;
-        background-color: #1C2225;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background-image: url("../img/your-order/kol.png");
-        background-repeat: no-repeat;
-        background-position: left;
-        background-position-y: 1740px;
-    } 
-
-
-    .section-your-order > :nth-child(2) {
-        justify-content: right;
-    }
+  }
+  .order-p {
+    width: 542px;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -1.32px;
+  }
+  .your-order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .label-and-input-div {
+    min-width: 508px;
+    gap: 20px;
+  }
+  .submit-button {
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
 }
-
-
 @media screen and (min-width: 1280px) {
-    .section-your-order {
-        max-width: 1120px;
-        margin-top: 150px;
-        margin-bottom: 150px;
-        flex-wrap: nowrap;
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 50px;
-        
+  .order-background-shirt {
+    background-image: url(../img/your-order/desktop-background-woman.jpg);
+    margin-bottom: 150px;
+    background-size: 1282px 776px;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .order-background-shirt {
+      background-image: url(../img/your-order/desktop-background-woman@2x.jpg);
     }
-
-    .your-order-img-div {
-        margin: 0;
-        max-width: 524px; 
-    }
-
-    .your-order {
-        padding-top: 0;
-    }
-    
-    .bagckround-image {
-        max-width: 1280px;
-        background-image: url("../img/your-order/desktop-background-woman.jpg");
-    }
-
-    .bg-img {
-        background-position-y: 1080px;
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-
-    .submit-button {
-        margin-bottom: 0;
-    }
+  }
+  .order-form-div{
+    max-width: 542px;
+  }
+  .your-order-form {
+  }
+  .image-container {
+    min-width: 524px;
+    max-height: 670px;
+  }
+  .order-ornament{
+    background-image: url(../img/your-order/kol.png);
+    right: 300px;
+    top: 156px;
+  }
+  .order-container {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 50px;
+  }
+  .submit-button {
+    margin-bottom: 0;
+  }
+  .order-img {
+    width: 524px;
+    height: 521px;
+    flex-shrink: 0;
+  }
 }
-
-
-@media screen and (min-resolution: 192dpi) and (min-width: 768px),
-       screen and (min-resolution: 2dppx) and (min-width: 768px),
-       screen and (min-device-pixel-ratio: 2) and (min-width: 768px)
-        {
-    .bagckround-image {
-        background-image: url("../img/your-order/tablet-background-woman@2x.jpg");
-        background-size: 100%;
-    }
-       }
-
-       @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-       screen and (min-resolution: 2dppx) and (min-width: 1280px),
-       screen and (min-device-pixel-ratio: 2) and (min-width: 1280px)
-        {
-    .bagckround-image {
-        background-image: url("../img/your-order/desktop-background-woman@2x.jpg");
-        background-size: 100%;
-    }
-       }
-
-
-       @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-       screen and (min-resolution: 2dppx) and (max-width: 767px),
-       screen and (min-device-pixel-ratio: 2) and (max-width: 767px)
-        {
-    .bagckround-image {
-        background-image: url("../img/your-order/backdroung-woman@2x.jpg");
-        background-size: 100%;
-    }
-       }
