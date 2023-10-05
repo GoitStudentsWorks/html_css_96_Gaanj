@@ -1,5 +1,5 @@
 .order-section {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .order-background-shirt {
   background-image: url(../img/your-order/backdroung-woman.jpg);
@@ -7,7 +7,7 @@
   min-height: 550px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .order-p {
   color: var(--white);
@@ -115,7 +115,7 @@
 }
 @media screen and (min-width: 768px) {
   .order-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .image-container {
     display: flex;
@@ -168,7 +168,7 @@
 }
 @media screen and (min-width: 1280px) {
   .order-section {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
   .order-background-shirt {
     background-image: url(../img/your-order/desktop-background-woman.jpg);
